@@ -3,6 +3,7 @@ on:
   pull_request:
     types:
       - closed
+  push:
 
 env:
   IMAGE_NAME: escape-datascience-school2022
